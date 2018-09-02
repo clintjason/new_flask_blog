@@ -39,7 +39,7 @@ def register():
 @app.route("/login", methods=['GET','POST'])
 def login():
     login_form = LoginForm()
-    if login_form.validate_on_submit:
+    if login_form.validate_on_submit():
         if login_form.email.data == 'admin@blog.com' and login_form.password.data == 'admin':
                flash("You have been logged in!","success")
                return redirect(url_for('home'))

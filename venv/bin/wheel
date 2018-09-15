@@ -1,4 +1,4 @@
-#!/home/jason/Projects/new_flask_blog/venv/bin/python2
+#!/home/jason/Projects/new_flask_blog/venv/bin/python3.6
 
 # -*- coding: utf-8 -*-
 import re
